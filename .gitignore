@@ -1,0 +1,47 @@
+# ============================================================
+# Epilogue Playback Linux Fix
+# ============================================================
+
+# Epilogue Playback binaries
+Playback
+Playback.*
+Playback-test
+Playback-test.*
+
+# AppImage files
+*.AppImage
+*.appimage
+
+# Binary backups
+*.backup
+*.bak
+*.orig
+
+# Extracted AppImage directories
+squashfs-root/
+squashfs-root-*/
+
+# Core dumps
+core
+core.*
+*.core
+
+# Debugging output
+gdb.txt
+gdb.log
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
